@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "webpack --mode development",
-    "prd" : "webpack --mode production",
-    "build" : "webpack"
+    "dev": "webpack --mode development",
+    "prd": "webpack --mode production",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/anomo06822/webpack-demo#readme",
   "devDependencies": {
+    "css-loader": "^6.7.2",
+    "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
